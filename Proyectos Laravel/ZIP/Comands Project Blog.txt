@@ -1,0 +1,38 @@
+-COMANDOS
+laravel new blog -> Crear
+php artisan make:auth -> Crear autenticacion
+php artisan make:model Role -m -> Crear modelo Role mas migracion
+php artisan make:seed UsersTableSeeder -> Semillero para crear datos User
+php artisan make:seed RolesTableSeeder -> Semillero para crear datos Role
+php artisan migrate -> migrar configuracion para base de datos
+php artisan db:seed -> ejecutar datos para semillero
+php artisan tinker ->Tinker es una consola de comandos con la que podremos interactuar con todas las clases y métodos de nuestra aplicación, una herramienta muy útil a la hora de realizar pruebas de funcionamiento. 	
+php artisan make:controller Admin/DashboardController -> Controlador
+php artisan make:controller Author/DashboardController -> Controlador
+php artisan make:middleware AdminMiddleware -> Un middleware es un mecanismo que se utiliza para filtrar las peticiones HTTP en una aplicación.
+php artisan make:middleware AuthorMiddleware -> Un middleware es un mecanismo que se utiliza para filtrar las peticiones HTTP en una aplicación.
+
+
+--------------------------------------------------------------------------
+FUNCIONES PARA RELACION 
+	hasMany(tiene muchos)
+	public function users(){
+        	return $this->hasMany('App\User');
+    	}
+	
+	belongsTo(pertenece a)
+	public function role(){
+        	return $this->belongsTo('App\Role');
+    	}	
+	
+--------------------------------------------------------------------------
+Kernel.php
+use App\Http\Middleware\AdminMiddleware;
+use App\Http\Middleware\AuthorMiddleware;
+
+	protected $routeMiddleware = [
+		'admin' => AdminMiddleware::class, 
+        	'author' => AuthorMiddleware::class
+	]
+
+

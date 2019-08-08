@@ -1,0 +1,11 @@
+-Colores
+--Crear campo codigoHexadecimal-->LLenar datos correctos
+
+
+-Accesorios
+--Campo color reemplazar->idColor
+---Crear respectiva relacion con tabla Color
+
+-detalleVenta
+--Eliminar campo idModelo
+---En su lugar crear campo idAccesorio con respectiva relacion a Tabla accesorio

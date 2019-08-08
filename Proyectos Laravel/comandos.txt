@@ -1,0 +1,4 @@
+install AdminLTE3
+-npm install admin-lte@v3.0.0-alpha.2 --save
+Para refrescar tablas 
+-php artisan migrate:fresh

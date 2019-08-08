@@ -1,0 +1,38 @@
+About us
+1.- Imagen
+2.- Texto 1 
+3.- Texto 2
+
+Attention schedule
+1.- Days
+2.- Hours
+3.- Direccion
+4.- Phone
+5.- Email
+6.- Facebook
+7.- Whatsapp
+8.- Instagram
+9.- Telegram 
+
+Comandos para limpieza de cache-rutas
+cache:clear
+config:clear
+route:clear
+view:clear
+
+public function register()
+{
+  $this->app->bind('path.public',function(){
+  	return base_path() . '/public_html';
+  });
+}
+
+usuario alfabusauser
+database alfabusa_db
+contraseña XPv+KAyK3JpQ
+-----------------
+config correo
+usuario aplicacion@unicellbolivia.com
+password S*D~.BUhbDzW
+
+

@@ -1,0 +1,8 @@
+Modulo Ventas
+--Anulación respectiva y retorno de cantidad 
+
+Modulo Modelos
+--CRUD sin validaciones
+
+Modulo Accesorios
+--CRUD a medias, continuar mañana . 

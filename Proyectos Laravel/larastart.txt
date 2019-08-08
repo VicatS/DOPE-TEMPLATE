@@ -1,0 +1,12 @@
+Client ID: 1
+Client secret: 7Jb7am2Selp16ECqqYm97Oi2ZGHYrXVIw5FlGnfL
+Password grant client created successfully.
+Client ID: 2
+Client secret: csXHpCedASiG5cYLQHTuObtoGx3sqloPOquJFjw5
+-------------------------------------------------------
+Passport-Laravel
+composer require laravel/passport
+php artisan vendor:publish --tag=passport-migrations
+php artisan migrate
+php artisan passport:install
+php artisan vendor:publish --tag=passport-components

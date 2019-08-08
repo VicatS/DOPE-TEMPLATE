@@ -1,0 +1,5 @@
+git clone direcccion
+git add
+git commit
+git push origin master
+git rm -r micarpeta/ ->Elimar carpeta 

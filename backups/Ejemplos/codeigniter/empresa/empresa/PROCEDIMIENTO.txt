@@ -1,0 +1,36 @@
+DESCARGAR CODEIGNITER
+
+http://www.codeigniter.com/
+
+EXTRAERLO/COPIARLO EN LA CARPETA HTDOCS
+
+CREAR NUESTRO ARCHIVO .htaccess  EN LA RAIZ DE NUESTRO PROYECTO
+
+EN NUESTRO ARCHIVO config.php  DE LA CARPETA config MODIFICAMOS LO SIGUIENTE:
+
+$config['base_url'] = 'http://localhost/empresa/';
+
+$config['index_page'] = '';
+
+
+Y EN EL ARCHIVO database.php DECLARAR NUESTRA VARIABLE DE  CONEXION EN ESTE CASO A MYSQL
+
+EN EL ARCHIVO autoload.php  DE LA CARPETA config AUTOCARGAREMOS ALGUNOS HELPER Y LIBRERIAS QUE SERAN NECESARIAS PARA NUESTRA APLICACION
+
+
+$autoload['libraries'] = array('database');
+$autoload['helper'] = array('url');
+
+
+
+
+
+
+
+
+
+
+
+
+
+

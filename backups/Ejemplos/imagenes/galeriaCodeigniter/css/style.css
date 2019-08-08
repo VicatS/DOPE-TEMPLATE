@@ -1,0 +1,88 @@
+
+.nav-controls {
+
+margin:10px;
+
+}
+
+.backHome {
+
+color:#666;
+font-size:28px;
+}
+
+.backHome:hover {
+
+text-decoration:none;
+color:#ccc;
+}
+
+.albumObj, .albumTmb {
+
+padding:10px;
+
+
+
+}
+
+.albumTmb:hover {
+
+-webkit-box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.75);
+border-radius:2px;
+}
+
+
+.albumTitle {
+
+color: #666 !important;
+font-size:18px;
+}
+
+.albumTitle:hover {
+
+text-decoration: none;
+color: #ccc !important;
+
+
+}
+
+.carousel-inner > .item > img, 
+.carousel-inner > .item > a > img{
+width: 100%; /* use this, or not */
+margin: auto;
+padding:5px;
+border: 1px solid #ccc;
+}
+
+
+#thumbnails {
+
+width:1118px !important;
+margin-top:10px;
+position:relative;
+overflow-x:hidden;
+}
+
+#thumbnails ul {
+width:3200px !important;
+cursor:pointer;
+float: left !important;
+position:relative;
+list-style-type: none;
+}
+#thumbnails ul li {
+
+
+display: inline !important;
+
+}
+
+#thumbnails ul li img {
+
+max-width:150px;
+height:auto;
+padding:5px;
+border: 1px solid #ccc;
+}

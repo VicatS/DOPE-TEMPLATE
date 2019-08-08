@@ -1,0 +1,5 @@
+Devolucion de stock al anular una venta
+--CRUD MODELOS-> Sin validacion
+--CRUD ACCESORIOS-> SIN VALIDACION
+
+Nuevo menus . 

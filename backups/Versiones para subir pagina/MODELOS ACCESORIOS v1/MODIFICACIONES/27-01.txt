@@ -1,0 +1,29 @@
+ACCESORIOS
+-CONTROLLER
+--Respectivas funciones para el CRUD completo
+--Eliminar un accesorio (Descuento respectivo en TOTAL->modelos, estado->0, revisar consulta de SUM(ac.stock))
+
+-VIEW
+--Crear las respesctivas vistas de cada proceso 
+---Preparar para el carrito de compras(OPCIONAL)
+
+-MODEL
+--Crear las respectivas consultas para cada funcion del CRUD
+
+
+MODELOS
+-CONTROLLER
+--Completar respectivas funciones del CRUD
+
+-VIEW
+--Crear las respesctivas vistas de cada proceso 
+
+-MODEL
+--Completar las respectivas consultas de EDIT-DELETE
+
+
+
+GLOBAL
+-Dar permisos respectivos según el tipo de usuario
+-Validaciones en ambos módulos.
+-Dejar para mas despues el manejo de imagenes .  
