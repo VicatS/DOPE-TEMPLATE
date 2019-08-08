@@ -1,0 +1,6 @@
+1.- Descomprimir
+2.- Ingresar en carpeta Corlate
+3.- Busca el archivo index.html para arrancar, es el archivo de inicio por defecto en todos los templates
+4.- Click en index.html
+5.- Mayormente se encuentran en la carpeta del mismo nombre del template
+---------------------------------------------------------------------------------------------------------
